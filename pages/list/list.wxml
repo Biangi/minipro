@@ -1,0 +1,60 @@
+<!--pages/list/list.wxml-->
+
+<!--index.wxml-->
+
+<view class="cont">
+  <view class='page_row' bindtap="suo">
+    <view class="search">
+      <view class="df search_arr">
+        <icon class="searchcion" size='20' type='search'></icon>
+        <input class="" disabled placeholder="请输入关键字" value="{{searchValue}}"/>
+      </view>
+    </view>
+    
+  </view>
+
+  <!-- 列表 -->
+  <view class="movie-list">
+    <!-- 正在热映 -->
+    <view class="list-t">
+      <view class="coo">
+        <text>——为你推荐——</text>
+      </view>
+      <view class="movie-list-l">
+        <scroll-view>
+          <view class="movie-list-body">
+            <image src="/asset/asset/yourname.jpg"></image>
+            <view class="name">
+              你的名字</view>
+          </view>
+
+          <view class="movie-list-body">
+            <image src="/asset/asset/yourname.jpg"></image>
+            <view class="name">你的名字</view>
+          </view>
+
+          <view class="movie-list-body">
+            <image src="/asset/asset/yourname.jpg"></image>
+            <view class="name">你的名字</view>
+          </view>
+          <view class="movie-list-body">
+            <image src="/asset/asset/yourname.jpg"></image>
+            <view class="name">你的名字</view>
+          </view>
+
+          <view class="movie-list-body">
+            <image src="/asset/asset/yourname.jpg"></image>
+            <view class="name">你的名字</view>
+          </view>
+
+          <view class="movie-list-body">
+            <image src="/asset/asset/yourname.jpg"></image>
+            <view class="name">你的名字</view>
+          </view>
+        </scroll-view>
+      </view>
+
+    </view>
+    <!-- 正在热映 END -->
+ </view>
+</view>

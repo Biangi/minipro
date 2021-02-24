@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/logs/logs",
+    "pages/list/list",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#e54847",
+    "navigationBarTitleText": "V电影",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#eeeeee",
+    "enablePullDownRefresh": true
+
+  },
+  "tabBar": {
+    
+    "selectedColor": "#FF0000",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "电影",
+      "iconPath": "asset/asset/icon/movie.png",
+      "selectedIconPath": "asset/asset/icon/movie1.png"
+    }, {
+      "pagePath": "pages/list/list",
+      "text": "榜单",
+      "iconPath": "asset/asset/icon/cinema.png",
+      "selectedIconPath": "asset/asset/icon/cinema1.png"
+    }, {
+      "pagePath": "pages/logs/logs",
+      "text": "我的",
+      "iconPath": "asset/asset/icon/user.png",
+      "selectedIconPath": "asset/asset/icon/user1.png"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

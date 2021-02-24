@@ -1,0 +1,78 @@
+<!--logs.wxml-->
+<!-- <view class="container log-list">
+  <block wx:for="{{logs}}" wx:for-item="log">
+    <text class="log-item">{{index + 1}}. {{log}}</text>
+  </block>
+</view> -->
+
+<view class="app">
+  <!-- 头部分 -->
+  <view class="header">
+    <!-- 背景图片 -->
+    <!-- <image class="background" src="/asset/asset/icon/headBG.png"></image> -->
+    <view class="userinfo">
+      <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">
+        获取头像昵称
+      </button>
+      <block wx:else>
+        <image bindtap="bindViewTap" class="userinfo-avatar" src="/asset/asset/icon/headBG.png" mode="cover"></image>
+        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+      </block>
+    </view>
+  </view>
+  <!-- 头部分 END -->
+  <view class="hr"></view>
+  <!-- content部分 -->
+  <view class="content">
+    <view class="content-conttt">
+      <view class="content-coo">
+
+        <view class="content-flex">
+          <image src="/asset/asset/icon/order_store.png"></image>
+         购物狂欢
+        </view>
+
+        <view class="content-flex">
+          <image src="/asset/asset/icon/order_movie.png"></image>
+          购物狂欢
+         </view>
+
+         <view class="content-flex">
+          <image src="/asset/asset/icon/order_store.png"></image>
+         购物狂欢
+        </view>
+
+        <view class="content-flex">
+          <image src="/asset/asset/icon/order_movie.png"></image>
+          购物狂欢
+         </view>
+
+         <view class="content-flex">
+          <image src="/asset/asset/icon/order_store.png"></image>
+         购物狂欢
+        </view>
+
+        <view class="content-flex">
+          <image src="/asset/asset/icon/order_movie.png"></image>
+          购物狂欢
+         </view>
+
+         <view class="content-flex">
+          <image src="/asset/asset/icon/order_store.png"></image>
+         购物狂欢
+        </view>
+
+        <view class="content-flex">
+          <image src="/asset/asset/icon/order_movie.png"></image>
+          购物狂欢
+         </view>
+       
+
+       
+
+      </view>
+    </view>
+
+  </view>
+  <!-- content部分 END -->
+</view>

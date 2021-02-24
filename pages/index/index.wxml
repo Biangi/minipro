@@ -1,0 +1,101 @@
+<!--index.wxml-->
+
+<view class="cont">
+  <!-- 轮播 banner开始 -->
+  <view class="banner">
+    <swiper indicator-dots="true" circular="true" indicator-active-color="#e54847" autoplay="true"
+      easing-function="easeInOutCubic">
+      <swiper-item>
+        <image src="/asset/asset/banner/1.jpg"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="/asset/asset/banner/2.jpg"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="/asset/asset/banner/3.jpg"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="/asset/asset/banner/4.jpg"></image>
+      </swiper-item>
+    </swiper>
+  </view>
+  <!-- banner END -->
+  <!-- 列表 -->
+  <view class="movie-list">
+    <!-- 正在热映 -->
+    <view class="list-t">
+      <view class="coo">
+        <text>正在热映</text>
+        <view class="more">
+          <text class="more-text">更多</text>
+          <image class="more-img" src="/asset/asset/icon/right.png" alt=""></image>
+        </view>
+      </view>
+      <view class="movie-list-l">
+        <scroll-view>
+          <view class="movie-list-body">
+            <image src="/asset/asset/yourname.jpg"></image>
+            <view class="name">
+              你的名字</view>
+          </view>
+
+          <view class="movie-list-body">
+            <image src="/asset/asset/yourname.jpg"></image>
+            <view class="name">你的名字</view>
+          </view>
+
+          <view class="movie-list-body">
+            <image src="/asset/asset/yourname.jpg"></image>
+            <view class="name">你的名字</view>
+          </view>
+        </scroll-view>
+      </view>
+
+    </view>
+    <!-- 正在热映 END -->
+    <view class="hr"></view>
+    <!-- 即将上映 -->
+    <view class="list-t">
+      <view class="coo">
+        <text>即将上映</text>
+        <view class="more">
+          <text class="more-text">更多</text>
+          <image class="more-img" src="/asset/asset/icon/right.png" alt=""></image>
+        </view>
+      </view>
+
+      <view class="movie-list-l">
+        <scroll-view>
+          <view class="movie-list-body">
+            <image src="/asset/asset/yourname.jpg"></image>
+            <view class="name">
+              你的名字</view>
+          </view>
+
+          <view class="movie-list-body">
+            <image src="/asset/asset/yourname.jpg"></image>
+            <view class="name">你的名字</view>
+          </view>
+
+          <view class="movie-list-body">
+            <image src="/asset/asset/yourname.jpg"></image>
+            <view class="name">你的名字</view>
+          </view>
+        </scroll-view>
+      </view>
+    </view>
+    <!-- 即将上映 END -->
+  </view>
+
+  <!-- <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">
+      获取头像昵称
+    </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view> -->
+
+
+</view>

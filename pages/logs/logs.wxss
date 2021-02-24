@@ -1,0 +1,58 @@
+.app{
+  position: relative;
+}
+
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+
+.userinfo-avatar {
+  height: 300rpx;
+  z-index: -1;
+
+}
+
+.log-item {
+  margin: 10rpx;
+}
+
+/* 背景图片 END */
+.hr {
+  position: absolute;
+  background-color: #e9e9e9;
+  width: 750rpx;
+  height: 25rpx;
+  top: 280rpx;
+}
+
+/* content 部分 */
+.content-conttt {
+  padding: 30rpx;
+  font-size: 26rpx;
+  color: #4B4B4B;
+}
+
+.content-coo image {
+  width: 90rpx;
+  height: 90rpx;
+  margin: 10rpx;
+}
+.content-conttt .content-coo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.content-coo .content-flex{
+  display: flex;
+  flex-wrap: wrap;
+  width: 170rpx;
+  text-align: center;
+  justify-content: space-around;
+  font-szie:18px;
+  margin-bottom: 30rpx;
+}
+
+/* content 部分 END */
